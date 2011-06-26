@@ -72,7 +72,7 @@ For instance gravatar.avatar\_size = 128 can be written as:
 
 ###TODO
 
-  -Add gravatar profiles to the library.
+  * Add gravatar profiles to the library.
 
 ###LICENSE
 
