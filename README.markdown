@@ -69,11 +69,6 @@ For instance gravatar.avatar\_size = 128 can be written as:
 
     > gravatar.param_filters['s'] = proc{|s| s = 32}
 
-
-###TODO
-
-  * Add gravatar profiles to the library.
-
 ###LICENSE
 
   This library was released under the MIT license. Checkout the LICENSE file for more information.
