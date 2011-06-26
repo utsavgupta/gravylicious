@@ -1,11 +1,10 @@
 #README
-===
 
-##Installation
+###Installation
 
     $ sudo gem install gravylicious
 
-##Usage
+###Usage
 
 Creating a gravatar object
 
@@ -51,7 +50,7 @@ Setting and unsetting the force load option
 
     > gravatar.avatar_unforce_load                                            # Reverses the action of avatar_force_load.
 
-##Under the hood
+###Under the hood
 
 The parameters are stored in a hash called 'params'. So the assignments can be done manually. 
 For instance gravatar.avatar\_size = 128 can be written as:
@@ -71,10 +70,10 @@ For instance gravatar.avatar\_size = 128 can be written as:
     > gravatar.param_filters['s'] = proc{|s| s = 32}
 
 
-##TODO
+###TODO
 
-  -Add gravatar profiles to the library.
+  * Add gravatar profiles to the library.
 
-##LICENSE
+###LICENSE
 
   This library was released under the MIT license. Checkout the LICENSE file for more information.
