@@ -2,7 +2,7 @@ require 'rubygems'
 
 SPEC = Gem::Specification.new do |s|
   s.name = "gravylicious"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
   s.author = "Utsav Gupta"
   s.homepage = "https://github.com/utsavgupta"
   s.email = "utsavgupta89@gmail.com"
@@ -11,6 +11,5 @@ SPEC = Gem::Specification.new do |s|
   s.files = Dir.glob("{lib, tests}/**/*")
   s.require_path = "lib"
   s.autorequire = "gravylicious"
-  s.test_files = ["tests/tc_gravylicious.rb", "tests/sinatra_webpage.rb"]
-  s.add_dependency("sinatra", ">=1.2.6")
+  s.test_file = "tests/tc_gravylicious.rb"
 end
