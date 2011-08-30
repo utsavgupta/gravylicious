@@ -8,7 +8,7 @@
 
 Creating a gravatar object
 
-    > gravatar = Gravylicious.new("you@example.com", true)                    # Omit the second paramater if you don't 
+    > gravatar = Gravylicious.new("you@example.com", true)                    # Omit the second parameter if you don't 
                                                                               # want a https connection. Later you may
                                                                               # change it using 'gravatar.use_https=true'.
 
